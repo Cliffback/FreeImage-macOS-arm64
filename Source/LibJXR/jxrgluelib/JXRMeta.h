@@ -28,13 +28,13 @@
 #pragma once
 
 #include <windowsmediaphoto.h>
-#ifndef WIN32
+#if !defined(WIN32) || defined(__MINGW32__)
 #include <wmspecstring.h>
 #endif
 
 #ifndef UNREFERENCED_PARAMETER
 #define UNREFERENCED_PARAMETER(P) { (P) = (P); }
-#endif
+#endif // UNREFERENCED_PARAMETER
 
 //================================================================
 // Container
@@ -106,7 +106,7 @@
 #define WMP_valWMPhotoID WMP_valCompression
 
 
-#ifdef WIN32
+#if defined(WIN32) && !defined(__MINGW32__)
 #define __in_win    __in
 #define __out_win   __out
 #endif
