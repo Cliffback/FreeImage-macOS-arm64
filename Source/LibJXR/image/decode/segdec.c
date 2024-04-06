@@ -31,6 +31,7 @@
 
 // Mac OS X / Darwin features
 //#if defined(__APPLE__)
+// Source: https://stackoverflow.com/questions/41770887/cross-platform-definition-of-byteswap-uint64-and-byteswap-ulong
 #include <libkern/OSByteOrder.h>
 #define _byteswap_ulong(x) OSSwapInt32(x)
 
