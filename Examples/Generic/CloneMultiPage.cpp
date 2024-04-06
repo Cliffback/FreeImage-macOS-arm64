@@ -28,11 +28,9 @@
 //
 // ==========================================================
 
-#include <iostream>
-#include <cstdio>
-#include <string>
-
-using namespace std;
+#include <iostream.h>
+#include <stdio.h>
+#include <string.h>
 
 #include "FreeImage.h"
 

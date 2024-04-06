@@ -1,7 +1,5 @@
-# FreeImage
-
-This is yet another fork of [The FreeImage Project](https://freeimage.sourceforge.io).
-
+What is FreeImage ?
+-----------------------------------------------------------------------------
 FreeImage is an Open Source library project for developers who would like to support popular graphics image formats like PNG, BMP, JPEG, TIFF and others as needed by today's multimedia applications.
 FreeImage is easy to use, fast, multithreading safe, and cross-platform (works with Windows, Linux and Mac OS X).
 

@@ -29,6 +29,11 @@
 #include "strcodec.h"
 #include "decode.h"
 
+// Mac OS X / Darwin features
+//#if defined(__APPLE__)
+#include <libkern/OSByteOrder.h>
+#define _byteswap_ulong(x) OSSwapInt32(x)
+
 #ifdef MEM_TRACE
 #define TRACE_MALLOC    1
 #define TRACE_NEW       0
