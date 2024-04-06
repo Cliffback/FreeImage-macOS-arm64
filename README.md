@@ -1,4 +1,4 @@
-### NB
+## README
 In just needed a FreeImage binary for macOS arm64, so this is just the repo as it was when I managed to compile it. Probably not the best way to do it, but it worked. See the releases page for the actual library.
 
 What is FreeImage ?
